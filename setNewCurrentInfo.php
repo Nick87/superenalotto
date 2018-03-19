@@ -2,7 +2,6 @@
 require "functions.php";
 
 $nomiGiocatori = array_keys($giocatoriInfo);
-
 if(isset($_POST['newCurrentPlayer']) && !empty($_POST['newCurrentPlayer']) &&
    isset($_POST['newCurrentGiocata']) && !empty($_POST['newCurrentGiocata']) &&
    isset($_POST['newCurrentNConcorsi']) && !empty($_POST['newCurrentNConcorsi']))
